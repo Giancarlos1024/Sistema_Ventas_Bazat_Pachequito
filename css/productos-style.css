@@ -1,0 +1,272 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+}
+
+
+p {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Botones */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #010101;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #006bb3;
+}
+
+/* Contenedor */
+.container {
+    max-width: 100%;
+    width: 120rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* Header top */
+.header-top {
+    padding: 3rem 0;
+}
+
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: #010101;
+    font-weight: bold;
+}
+
+.header-top .container .header__right {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header__carrito {
+    display: flex;
+    position: relative;
+    background: #006bb3;
+    padding: 1rem 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__carrito:hover {
+    background-color: #00538f;
+    transform: scale(1.1);
+}
+
+
+.header__carrito .header__carrito-cantidad {
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    background-color: #ff0000;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/* Header bot */
+
+.header-bot {
+    padding: 2.5rem 0;
+    background-color: #010101;
+}
+
+.header__nav .header__nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6rem;
+}
+
+.header__nav-item a {
+    position: relative;
+}
+
+.header__nav-item a::after {
+    content: "";
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0;
+    width: 0;
+    height: 0.2rem;
+    background-color: #006bb3;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__nav-item a:hover {
+    transform: scale(1.1);
+}
+
+.header__nav-item a:hover::after {
+    width: 100%;
+}
+
+/* Main Productos */
+.productos-seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem 0;
+}
+
+.productos-seccion__titulo {
+    text-align: center;
+}
+
+.productos-seccion__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.productos-seccion__items .producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    border: 0.5rem solid #010101;
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    gap: 1rem;
+}
+
+.productos-seccion .seccion-productos__ver-mas {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Footer top */
+
+.footer-top {
+    padding: 6rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top .pie__columna {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.footer-top .pie__redes-sociales {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-top .pie__redes-sociales a {
+    font-size: 2rem;
+}
+
+.footer-top .pie__redes-sociales a:hover {
+    color: #006bb3;
+}
+
+/* Footer bottom */
+
+.footer-bottom {
+    padding: 3rem 0;
+    background-color: #010101;
+}
+
+.footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
