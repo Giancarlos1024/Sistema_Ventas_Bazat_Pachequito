@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Productos</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header__left">
+                    <a href="#" class="header__logo">
+                        <h1>BazarPachequito</h1>
+                    </a>
+                </div>
+
+                <div class="header__right">
+                    <a href="#" class="btn">Iniciar Sesión</a>
+                    <a href="#" class="btn">Registrarse</a>
+
+                    <a href="#" class="header__carrito">
+                        <span class="material-symbols-outlined header__carrito-icon">
+                            shopping_cart
+                        </span>
+                        <span class="header__carrito-cantidad">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bot">
+            <div class="container">
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="#">Inicio</a></li>
+                        <li class="header__nav-item"><a href="#">Nosotros</a></li>
+                        <li class="header__nav-item"><a href="#">Productos</a></li>
+                        <li class="header__nav-item"><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="contacto1">
+            <form action="#">
+                <legend>FORMULARIO</legend><br>
+                
+                <label for="fname">NOMBRES:</label><br>
+                <input type="text" id="fname" name="name"><br><br>
+
+                <label for="fapellido">APELLIDOS:</label><br>
+                <input type="text" id="fapellido" name="apellido"><br><br>
+
+                <label for="fapellido">EDAD:</label><br>
+                <input type="text" id="fapellido" name="apellido"><br><br>
+
+                <label for="fapellido">DIRECCION:</label><br>
+                <input type="text" id="fapellido" name="apellido"><br><br>
+
+                <label for="fcorreo">CORREO ELECTRONICO:</label><br>
+                <input type="text" id="fcorreo" name="correo"><br><br>
+
+                <label for="fcorreo">MENSAJE:</label><br><br>
+                <textarea name="message" rows="10" cols="82">
+
+                </textarea><br>
+                
+                <button type="button" onclick="alert('Enviado')">Enviar</button>
+
+            </form>
+        </section>
+        <section class="contacto2">
+            <img src="img/contacto.webp">
+
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-top">
+            <div class="container">
+                <div class="pie__columna">
+                    <h3>Ubicación</h3>
+                    <div class="pie__mapa">
+                        <!-- Código del mapa de ubicación -->
+                    </div>
+                    <p class="pie__direccion">Bazar Pachequito Av. de los maestros Ica</p>
+                </div>
+                <div class="pie__columna">
+                    <h3>Sobre Nosotros</h3>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Misión y Visión</a></li>
+                    </ul>
+                </div>
+                <div class="pie__columna">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>Teléfono: <a href="tel:998568777">998568777</a></li>
+                        <li>Email: <a href="bazar@gmail.com">bazar@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="pie__columna">
+                    <h3>Redes Sociales</h3>
+                    <ul class="pie__redes-sociales">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-bottom">
+            <div class="container">
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Politica de privacidad</a>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
