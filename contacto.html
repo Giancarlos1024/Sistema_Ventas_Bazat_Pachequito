@@ -53,30 +53,33 @@
 
     <main>
         <section class="contacto1">
-            <form action="#">
+            <form action="procesarformulario.php" name="ejemplo" method="post">
                 <legend>FORMULARIO</legend><br>
                 
-                <label for="fname">NOMBRES:</label><br>
-                <input type="text" id="fname" name="name"><br><br>
+                <label for="fnombre">NOMBRES:</label><br>
+                <input type="text" id="fnombre" name="fnombre" placeholder="nombre"><br><br>
 
                 <label for="fapellido">APELLIDOS:</label><br>
-                <input type="text" id="fapellido" name="apellido"><br><br>
+                <input type="text" id="fapellido" name="fapellido" placeholder="apellido"><br><br>
 
-                <label for="fapellido">EDAD:</label><br>
-                <input type="text" id="fapellido" name="apellido"><br><br>
+                <label for="fedad">EDAD:</label><br>
+                <input type="text" id="fedad" name="fedad" placeholder="edad"><br><br>
 
-                <label for="fapellido">DIRECCION:</label><br>
-                <input type="text" id="fapellido" name="apellido"><br><br>
+                <label for="fdireccion">DIRECCION:</label><br>
+                <input type="text" id="fdireccion" name="fdireccion" placeholder="direccion"><br><br>
 
                 <label for="fcorreo">CORREO ELECTRONICO:</label><br>
-                <input type="text" id="fcorreo" name="correo"><br><br>
+                <input type="text" id="fcorreo" name="fcorreo" placeholder="correo"><br><br>
 
-                <label for="fcorreo">MENSAJE:</label><br><br>
-                <textarea name="message" rows="10" cols="82">
+                <label for="fmensaje">MENSAJE:</label><br><br>
+                <textarea id="fmensaje" name="fmensaje" rows="10" cols="82" placeholder="mensaje">
 
                 </textarea><br>
-                
-                <button type="button" onclick="alert('Enviado')">Enviar</button>
+                <input type="submit" name="registro">
+                <input type="reset">
+                <!--
+                    <button type="button" onclick="alert('Enviado')">Enviar</button>
+                -->
 
             </form>
         </section>

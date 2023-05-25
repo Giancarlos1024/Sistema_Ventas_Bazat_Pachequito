@@ -9,11 +9,11 @@
 
 <body>
     <div class="container">
-        <form class="form" data-form>
+        <form  action="procesarinicio_sesion.php" class="form" data-form name="ejemplo" method="post">
             <h2>Login</h2>
             <input type="text" id="user" name="user" placeholder="Username" data-form-user>
             <input type="password" id="password" name="password" placeholder="Password" data-form-password>
-            <input type="submit" class="btn" value="Login">
+            <input type="submit" class="btn" value="Login" name="iniciar">
             <a class="btn" href="registro.html">Registrarse</a>
             <a class="form__recuperar-contrasena" href="recuperar-contrasena.html">Recuperar contraseña</a>
         </form>
