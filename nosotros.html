@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-        <link rel="stylesheet" href="css/header-footer.css">
-    <link rel="stylesheet" href="css/contacto.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Productos</title>
 </head>
 
@@ -52,42 +54,39 @@
         </div>
     </header>
 
-    <main>
-        <section class="contacto1">
-            <form action="procesarformulario.php" name="ejemplo" method="post">
-                <legend>FORMULARIO</legend><br>
-                
-                <label for="fnombre">NOMBRES:</label><br>
-                <input type="text" id="fnombre" name="fnombre" placeholder="nombre"><br><br>
+    <main class="main">
+        <div class="container">
+            <section class="sobre-nosotros-seccion">
+                <h2 class="sobre-nosotros-seccion__titulo">Sobre nosotros</h2>
+                <p>Somos una tienda de ropa comprometida en brindar productos de calidad y estilo para nuestros
+                    clientes. Nos enfocamos en ofrecer una amplia selección de prendas de moda para hombres, mujeres y
+                    niños, siguiendo las últimas tendencias en la industria.</p>
+                <p>Nuestro objetivo es satisfacer las necesidades y gustos de nuestros clientes, proporcionando
+                    productos de alta calidad, excelente servicio al cliente y una experiencia de compra única y
+                    placentera.</p>
+            </section>
 
-                <label for="fapellido">APELLIDOS:</label><br>
-                <input type="text" id="fapellido" name="fapellido" placeholder="apellido"><br><br>
+            <section class="mision-seccion">
+                <h2 class="mision-seccion__titulo">Misión</h2>
+                <!-- Contenido de la sección "Misión" -->
+                <p>Nuestra misión es ser reconocidos como la tienda de referencia en moda y estilo, brindando productos
+                    de calidad, variedad y buen precio. Nos esforzamos por superar las expectativas de nuestros clientes
+                    y establecer relaciones duraderas basadas en la confianza y la satisfacción.</p>
+                <p>Trabajamos en equipo, con pasión y creatividad, para ofrecer una experiencia de compra excepcional y
+                    mantenernos a la vanguardia de las tendencias en la industria de la moda.</p>
+            </section>
 
-                <label for="fedad">EDAD:</label><br>
-                <input type="text" id="fedad" name="fedad" placeholder="edad"><br><br>
-
-                <label for="fdireccion">DIRECCION:</label><br>
-                <input type="text" id="fdireccion" name="fdireccion" placeholder="direccion"><br><br>
-
-                <label for="fcorreo">CORREO ELECTRONICO:</label><br>
-                <input type="text" id="fcorreo" name="fcorreo" placeholder="correo"><br><br>
-
-                <label for="fmensaje">MENSAJE:</label><br><br>
-                <textarea id="fmensaje" name="fmensaje" rows="10" cols="82" placeholder="mensaje">
-
-                </textarea><br>
-                <input type="submit" name="registro">
-                <input type="reset">
-                <!--
-                    <button type="button" onclick="alert('Enviado')">Enviar</button>
-                -->
-
-            </form>
-        </section>
-        <section class="contacto2">
-            <img src="img/contacto.webp">
-
-        </section>
+            <section class="vision-seccion">
+                <h2 class="vision-seccion__titulo">Visión</h2>
+                <!-- Contenido de la sección "Visión" -->
+                <p>Nuestra visión es convertirnos en la opción preferida de nuestros clientes al buscar ropa de calidad
+                    y estilo. Buscamos expandir nuestro alcance y presencia en el mercado, ofreciendo productos
+                    innovadores, ampliando nuestra oferta y mejorando constantemente nuestros servicios.</p>
+                <p>Queremos ser reconocidos como una marca líder en el sector de la moda, resaltando por nuestra
+                    excelencia en el diseño, la calidad de nuestros productos y la satisfacción de nuestros clientes.
+                </p>
+            </section>
+        </div>
     </main>
 
     <footer>
@@ -97,7 +96,10 @@
                     <h3>Ubicación</h3>
                     <div class="pie__mapa">
                         <!-- Código del mapa de ubicación -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d813.620801255117!2d-75.72833930651815!3d-14.06213842615434!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e39dce6ed40d%3A0xcdac4bdfb7b1e774!2sCOMERCIAL%20PACHEQUITO!5e0!3m2!1ses-419!2spe!4v1684863355345!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d813.620801255117!2d-75.72833930651815!3d-14.06213842615434!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e39dce6ed40d%3A0xcdac4bdfb7b1e774!2sCOMERCIAL%20PACHEQUITO!5e0!3m2!1ses-419!2spe!4v1684863355345!5m2!1ses-419!2spe"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <p class="pie__direccion">Bazar Pachequito Av. de los maestros Ica</p>
                 </div>
@@ -118,8 +120,10 @@
                 <div class="pie__columna">
                     <h3>Redes Sociales</h3>
                     <ul class="pie__redes-sociales">
-                        <li><a href="https://www.facebook.com/people/Bazar-Pachequito/100063482473828/"><i class="fab fa-facebook"></i></a></li>
-                        <li><a href="https://www.tiktok.com/@bazarpachequito"><i class="fa-brands fa-tiktok"></i></a></li>
+                        <li><a href="https://www.facebook.com/people/Bazar-Pachequito/100063482473828/"><i
+                                    class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.tiktok.com/@bazarpachequito"><i class="fa-brands fa-tiktok"></i></a>
+                        </li>
                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                     </ul>

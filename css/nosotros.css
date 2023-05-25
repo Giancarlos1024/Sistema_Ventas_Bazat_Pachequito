@@ -1,0 +1,22 @@
+/* Main */
+.main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding: 5rem 0;
+}
+
+.sobre-nosotros-seccion,
+.mision-seccion,
+.vision-seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.sobre-nosotros-seccion__titulo,
+.mision-seccion__titulo,
+.vision-seccion__titulo {
+    text-align: center;
+}
