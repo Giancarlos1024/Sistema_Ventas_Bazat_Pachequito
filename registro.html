@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Registro de Usuario</title>
     <link rel="stylesheet" href="css/registro.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <form  action="procesarregistro.php" name="ejemplo" method="post" >
-        <h2>Registro de Usuario</h2>
-        <input type="text" name="usuario_registrado" placeholder="ID Usuario" required>
-        <input type="text" name="nombre" placeholder="Nombres" required>
-        <input type="text" name="apellido" placeholder="Apellidos" required>
-        <input type="text" name="direccion" placeholder="Direccion" required>
-        <input type="email" name="correo" placeholder="Email Address" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <input type="password" name="conf_password" placeholder="Confirmar Password" required>
-        <input type="submit" value="Registrarse" name="Registrarse">
-      </form>
+        <form action="procesarregistro.php" name="ejemplo" method="post">
+            <h2>Registro de Usuario</h2>
+            <input type="text" name="usuario_registrado" placeholder="ID Usuario" required>
+            <input type="text" name="nombre" placeholder="Nombres" required>
+            <input type="text" name="apellido" placeholder="Apellidos" required>
+            <input type="text" name="direccion" placeholder="Direccion" required>
+            <input type="email" name="correo" placeholder="Email Address" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="conf_password" placeholder="Confirmar Password" required>
+            <input type="submit" value="Registrarse" name="Registrarse">
+        </form>
     </div>
     <script src="registro.js"></script>
-  </body>
+</body>
+
 </html>

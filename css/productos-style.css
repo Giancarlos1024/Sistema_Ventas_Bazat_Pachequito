@@ -24,11 +24,12 @@
     justify-content: center;
     align-items: center;
     padding: 2rem 1rem;
-    border: 0.5rem solid #010101;
+    border: 0.4rem solid #010101;
     border-radius: 1rem;
     transition: all 0.3s ease-in-out;
     background-color: #fff;
     gap: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
 .productos-seccion .seccion-productos__ver-mas {

@@ -11,7 +11,8 @@
         <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Productos</title>
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <div class="header-top">
             <div class="container">
                 <div class="header__left">
-                    <a href="#" class="header__logo">
+                    <a href="inicio.html" class="header__logo">
                         <h1>BazarPachequito</h1>
                     </a>
                 </div>
@@ -58,26 +59,26 @@
                 <legend>FORMULARIO</legend><br>
                 
                 <label for="fnombre">NOMBRES:</label><br>
-                <input type="text" id="fnombre" name="fnombre" placeholder="nombre"><br><br>
+                <input type="text" id="fnombre" name="fnombre" placeholder="nombre" required><br><br>
 
                 <label for="fapellido">APELLIDOS:</label><br>
-                <input type="text" id="fapellido" name="fapellido" placeholder="apellido"><br><br>
+                <input type="text" id="fapellido" name="fapellido" placeholder="Apellido" required><br><br>
 
                 <label for="fedad">EDAD:</label><br>
-                <input type="text" id="fedad" name="fedad" placeholder="edad"><br><br>
+                <input type="text" id="fedad" name="fedad" placeholder="Edad" required><br><br>
 
                 <label for="fdireccion">DIRECCION:</label><br>
-                <input type="text" id="fdireccion" name="fdireccion" placeholder="direccion"><br><br>
+                <input type="text" id="fdireccion" name="fdireccion" placeholder="Direccion" required><br><br>
 
                 <label for="fcorreo">CORREO ELECTRONICO:</label><br>
-                <input type="text" id="fcorreo" name="fcorreo" placeholder="correo"><br><br>
+                <input type="email" id="fcorreo" name="fcorreo" placeholder="Correo" required><br><br>
 
                 <label for="fmensaje">MENSAJE:</label><br><br>
                 <textarea id="fmensaje" name="fmensaje" rows="10" cols="82" placeholder="mensaje">
 
                 </textarea><br>
-                <input type="submit" name="registro">
-                <input type="reset">
+                <input class="btn" type="submit" name="registro" value="Enviar">
+                <!-- <input type="reset"> -->
                 <!--
                     <button type="button" onclick="alert('Enviado')">Enviar</button>
                 -->

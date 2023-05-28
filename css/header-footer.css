@@ -83,10 +83,13 @@ img {
     border-radius: 0.5rem;
     background-color: #010101;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #fff;
 }
 
 .btn:hover {
     background-color: #006bb3;
+    
 }
 
 /* Contenedor */
